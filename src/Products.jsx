@@ -8,7 +8,7 @@ function Products({age,data}) {
         <h2>{data.age}</h2>
         <h2>{data.name}</h2> */}
         <h4 className={`${a===false ? "text-red-400":"text-green-400"}`}>{a=== false ? "hello" :"hi"}</h4>  {/*ternary operator , it is also known as conditional rendering*/}
-        <button onclick={()=>b(!a)}>change</button>
+        <button onclick={()=>b(!agit )}>change</button>
         </div>
   )
 }
